@@ -14,4 +14,4 @@ def home():
         username = session["Username"]
         msg = username
 
-    return render_template("index.webfile", msg=msg, title="MOU Bank")
+    return render_template("index.webfile", msg=msg, title="Vulnerable Falsk App")

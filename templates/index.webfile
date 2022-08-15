@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block body %}
-<h1 style="text-align: center;">MOU Bank</h1>
+<h1 style="text-align: center;">Vulnerable Falsk App</h1>
 <h2 style="text-align: center;">Welcome!</h2>
 {{ msg }}
 {% endblock %}

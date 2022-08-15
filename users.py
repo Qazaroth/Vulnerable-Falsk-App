@@ -63,7 +63,7 @@ def login():
         else:
             msg = "Incorrect username and/or password!"
     
-    return render_template("user/login.html", msg=msg, title="MOU Bank - Login")
+    return render_template("user/login.html", msg=msg, title="Vulnerable Falsk App - Login")
 
 @bp.route("/logout")
 def logout():
@@ -99,4 +99,4 @@ def register():
 
             return redirect(url_for("users.login"))
     
-    return render_template("user/register.html", msg=msg, title="MOU Bank - Register")
+    return render_template("user/register.html", msg=msg, title="Vulnerable Falsk App - Register")

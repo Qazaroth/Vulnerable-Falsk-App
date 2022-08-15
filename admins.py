@@ -16,6 +16,6 @@ def users():
         user : User = db.getAccountByID(id)
 
         if user.getAccessLevel() == 0:
-            return render_template("admins/users.html", title="ADMIN MOU Bank - Users", users=users)
+            return render_template("admins/users.html", title="ADMIN Vulnerable Falsk App - Users", users=users)
 
     return redirect(url_for("main.home"))
