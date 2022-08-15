@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block body %}
+{% autoescape false %}
+<table class="table table-striped">
+    <tr>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Access Level</th>
+    </tr>
+    {% for u in users %}
+    <tr>
+        <td>{{ u.getUsername() }}</td>
+        <td>{{ u.getPassword() }}</td>
+        <td>{{ u.getAccessLevel() }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endautoescape %}
+{% endblock %}

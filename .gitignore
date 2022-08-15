@@ -1,0 +1,5 @@
+__pycache__/
+connectors.ini
+database.db.bak
+database.db.dat
+database.db.dir
